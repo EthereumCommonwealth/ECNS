@@ -656,7 +656,7 @@ contract Registrar {
         }
     }
     
-    function changeDeedDuration(address _deedDuration) 
+    function changeDeedDuration(uint _deedDuration) 
     {
         if (ens.owner(0) == msg.sender)
         {
